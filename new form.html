@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <fieldset>
+        <legend>Sign Up</legend>
+        <form action="/submit-form" method="post">
+            <label for="username">Enter Username</label>
+            <input type="text" name="username" id="username" required />
+
+            <label for="email">Enter Email</label>
+            <input type="email" name="email" id="email" required />
+            <label for="language">Choose a Programming Language</label>
+            <input list="languages" name="language" id="language" />
+            <datalist id="languages"> 
+                <option value="Java"></option>
+                <option value="Python"></option>
+                <option value="C++"></option>
+                <option value="C"></option>   
+                <option value="Web Development"></option>
+            </datalist>
+
+            <button type="reset">Reset Form</button>
+            <input type="submit" value="Submit" />
+        </form>
+    </fieldset>
+</body>
+</html>

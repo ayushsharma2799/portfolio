@@ -1,0 +1,49 @@
+1.nav bar
+ -home
+ -contact
+ -resume
+2.header
+header ke andar body tag banau ga
+or fir
+2{
+2::INTRO part 
+-Heading
+-Image
+-about me
+3:: experience 
+ - list of my experience
+4:: skills
+ - list all my skills
+
+5::achievements
+-list all my achievements }
+
+3.footer
+ -home
+ -contact
+ -resume
+ -social
+
+4.contact us
+Nav bar 
+-name
+-contact
+-resume
+contact me  Form
+-FIRST name
+-LAST name
+-EMAIL
+contact NO
+-SUBMIT
+Social links
+-Linkedin
+-youtube
+embeded map
+Goal
+-Data scientist
+-Road map
+footer
+ -name
+ -contact
+ -resume
+ -social
